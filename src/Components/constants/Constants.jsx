@@ -1,0 +1,2 @@
+export const orginals=`https://api.themoviedb.org/3/discover/tv?api_key=c6c400afdbe6fe17e49889c78642033b&with_networks=213`
+export const Action=`https://api.themoviedb.org/3/discover/movie?api_key=c6c400afdbe6fe17e49889c78642033b&with_genres=28`
