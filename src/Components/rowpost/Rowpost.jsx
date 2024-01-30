@@ -40,7 +40,7 @@ function Rowpost(props) {
       <h1 className="font-bold text-2xl bg-black text-white pb-3 pl-2 pt-3 ">
         {props.title}
       </h1>
-      <div className=" flex flex-row items-center w-full h-60 p-2 overflow-x-scroll overflow-y-hidden ">
+      <div className=" grid grid-flow-col scrollbar-hidden items-center w-full h-60 p-2 overflow-x-scroll overflow-y-hidden ">
         {movie.map((obj, i) => {
           return (
             <div  className="h-full w-80" key={i}>
